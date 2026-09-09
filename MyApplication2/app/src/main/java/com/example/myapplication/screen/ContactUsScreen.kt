@@ -24,15 +24,15 @@ fun ContactUsScreen() {
     Column(
         modifier =
             Modifier.fillMaxSize().padding(16.dp),
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         horizontalAlignment =
             Alignment.CenterHorizontally
     ) {
-        Text(
-            text = "Halaman Bantuan", fontSize =
-                24.sp
-        )
-        Spacer(modifier = Modifier.height(16.dp))
+//        Text(
+//            text = "Halaman Bantuan", fontSize =
+//                24.sp
+//        )
+//        Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {
 // Intent ke WhatsApp
             val url = "https://wa.me/6281234567890"
